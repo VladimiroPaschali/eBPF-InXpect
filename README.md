@@ -84,3 +84,26 @@ If Inxpect does not disable the event counter at the end of the program. It is p
 ```bash
 sudo ./clean_reg.sh -1
 ```
+## Reference
+If you use InXpect in your research, please cite our paper [InXpect: Lightweight XDP Profiling](https://dl.acm.org/doi/10.1145/3748355.3748367)
+
+```
+@inproceedings{10.1145/3748355.3748367,
+author = {Paschali, Vladimiro and Monterubbiano, Andrea and Fazzari, Francesco and Swift, Michael and Pontarelli, Salvatore},
+title = {InXpect: Lightweight XDP Profiling},
+year = {2025},
+isbn = {9798400720840},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3748355.3748367},
+doi = {10.1145/3748355.3748367},
+abstract = {The eBPF eXpress Data Path (XDP) allows high-speed packet processing applications. Achieving high throughput requires careful design and profiling of XDP applications. However, existing profiling tools lack eBPF support. We introduce InXpect, a lightweight monitoring framework that profiles eBPF programs with fine granularity and minimal overhead, making it suitable for XDP-based in-production systems. We demonstrate how InXpect outperforms existing tools in profiling overhead and capabilities. InXpect is the first XDP/eBPF profiling system that provides real-time statistics streaming, enabling immediate detection of changes in program behavior.},
+booktitle = {Proceedings of the 3rd Workshop on EBPF and Kernel Extensions},
+pages = {48–54},
+numpages = {7},
+keywords = {XDP, eBPF, performance, profiling},
+location = {Coimbra, Portugal},
+series = {eBPF '25}
+}
+```
+
